@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/rocker-org/rocker.svg?branch=master)](https://travis-ci.org/rocker-org/rocker)
 
+# adding r-dada2 #
+
 # rocker #
 
 ## Overview ##
