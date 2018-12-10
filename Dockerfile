@@ -20,5 +20,4 @@ RUN apt-get update -qq && \
         BiocManager
 
 RUN Rscript -e 'BiocManager::install("dada2", version = "3.8")'
-
-## Work-around to make Docker Hub use the Dockerfile from https://github.com/rocker-org/rocker-versioned/rstudio
+RUN Rscript -e 'BiocManager::install("phyloseq", version = "3.8")'
